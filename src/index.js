@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/saludo', (req, res) => {
-  res.json({ mensaje: 'Esta api esta ejecutandose en CI' });
+  res.json({ mensaje: 'Esta api esta ejecutandose en CI' })
 });
 
 if (require.main === module) {
