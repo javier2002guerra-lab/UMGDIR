@@ -1,0 +1,24 @@
+{
+  "name": "umgdir",
+  "version": "1.0.0",
+  "description": "Laboratorio de DevOPs de CI/CD con Node.js y GitHub act",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start":"node src/index.js",
+    "test": "jest --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "supertest": "^7.2.2"
+  }
+}
